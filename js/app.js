@@ -7,7 +7,7 @@ const score = document.querySelector(".user__score");
 const userTime = document.querySelector(".user__time");
 
 let a = 0;
-let time = 10;
+let time = 15;
 
 function randomWordGenerator() {
   const randomtitle = Math.trunc(Math.random() * word.length);
@@ -33,9 +33,9 @@ const timer = setInterval(() => {
   if (time == 0) {
     clearInterval(timer);
   }
-  if (time <= 10 && time > 6) {
+  if (time <= 15 && time > 10) {
     userTime.parentElement.style.color = "green";
-  } else if (time <= 6 && time > 3) {
+  } else if (time <= 10 && time > 3) {
     userTime.parentElement.style.color = "yellow";
   } else {
     userTime.parentElement.style.color = "red";
