@@ -21,6 +21,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: cursive;
 }
 
 .card {
@@ -41,4 +42,13 @@ body {
   border-radius: 40px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+#change__level {
+  border: none;
+  background-color: bisque;
+  text-align: center;
+  width: 25%;
+  margin-left: 150px;
+  font-family: cursive;
 }
