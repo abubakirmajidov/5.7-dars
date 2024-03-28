@@ -7,7 +7,7 @@ const score = document.querySelector(".user__score");
 const userTime = document.querySelector(".user__time");
 
 let a = 0;
-let time = 100;
+let time = 10;
 
 function randomWordGenerator() {
   const randomtitle = Math.trunc(Math.random() * word.length);
